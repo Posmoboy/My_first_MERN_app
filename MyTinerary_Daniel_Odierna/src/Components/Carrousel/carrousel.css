@@ -1,0 +1,81 @@
+.contenedor {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+
+.imageContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
+  width: auto;
+}
+
+.column{
+    float: left;
+    width: 50%;
+}
+
+img {
+  border-radius: 10px;
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+}
+
+.texto-encima {
+  position: absolute;
+  bottom: 3px;
+  left: 10px;
+  font-weight: bold;
+}
+
+
+
+
+.CarruselSlideShowContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around ;
+  border-style: dashed;
+  border-color: rgb(0, 255, 251);
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  background-image: url(/MytineraryPatternBackground1.png);
+    background-size: 271%;
+}
+
+.imageContainer {
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: row;
+  padding: 1%;
+  margin: 1%;
+  border: 1px;
+
+
+}
+
+h2 {
+  background-image: linear-gradient(135deg,#fc894d, #0af312 40%, #fc894d);
+  border: 1;
+  border-radius: 10px;
+
+}
+
+.pHero,
+.texto-encima {
+  background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+  border: 1;
+  border-radius: 10px;
+  width: 100px;
+  height: 20px;
+  opacity: 1;
+}
+
+.PrevNextButton{
+  background-image: linear-gradient(135deg,#fc894d, #0af312 40%, #fc894d);
+}

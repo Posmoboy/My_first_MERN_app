@@ -1,0 +1,29 @@
+{
+  "name": "my_first_mern_app",
+  "version": "1.0.0",
+  "description": "MyTinerary Mern proyect",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "set PORT=5173 && node index.js",
+    "dev": "set PORT=5173 && nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Posmoboy/mytinerary_DanielOdierna.git"
+  },
+  "author": "Daniel F. Odierna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Posmoboy/mytinerary_DanielOdierna/issues"
+  },
+  "homepage": "https://github.com/Posmoboy/mytinerary_DanielOdierna#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "7.0.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.3",
+    "morgan": "^1.10.0"
+  }
+}

@@ -1,0 +1,141 @@
+* {
+   padding: 0%;
+   margin: 0%;
+   box-sizing: border-box;
+}
+
+.AppMytiHome {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   background-color: #ccff15;
+   min-height: 100vh;
+   
+
+ }
+   
+
+
+
+h1 {
+   font-size: 2em;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin: 0.67em 0;
+   color: #f00759;
+  
+}
+
+a {
+   background-color: transparent;
+}
+
+
+.MytiLogo {
+   display: flex;
+   float: left;
+
+}
+
+
+
+
+@media (max-width: 768px) {
+   .AppMytiHome {
+      width: 100%;
+   }
+
+   header {
+      height: 100px;
+   }
+
+   .content {
+      padding: 20px;
+   }
+
+   footer {
+      height: 100px;
+   }
+}
+
+@media (min-width: 768px) {
+   .AppMytiHome {
+      width: 900px;
+   }
+
+   header {
+      height: 200px;
+   }
+
+   .content {
+      padding: 40px;
+   }
+
+   footer {
+      height: 200px;
+   }
+}
+
+
+@media (min-width: 768px) {
+   .AppMytiHome {
+      width: 900px;
+   }
+
+   header {
+      height: 200px;
+   }
+
+   .content {
+      padding: 40px;
+   }
+
+   footer {
+      height: 200px;
+   }
+}
+
+@media (min-resolution: 192dpi) {
+img {
+      width: 100%;
+      height: auto;
+   }
+}
+
+@media (min-width: 1200px) {
+   .AppMytiHome {
+      width: 1000px;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+   .AppMytiHome {
+      width: 750px;
+   }
+}
+
+/* .AppMytiHome {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+ }
+ 
+ .headerNav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+ }
+ 
+ .MytiLogo {
+   font-size: 24px;
+ }
+ 
+ nav {
+   display: flex;
+ }
+ 
+ 
+ 
+
+ 
+ 

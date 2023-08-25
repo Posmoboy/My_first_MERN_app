@@ -1,0 +1,16 @@
+.headerNav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    left: 10px;
+    top: 0px;
+    display:grid;
+     width:100vh;
+     align-items: flex-start;
+ }
+
+ .MytiLogo{
+    margin: 100px;
+    padding: 100px;
+ }
